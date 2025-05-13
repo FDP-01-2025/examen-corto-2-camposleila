@@ -29,15 +29,15 @@ int main()
     }
 
     cout << "Selecciona zapatos para:" << endl;
-    cout << "1. Hombre" << endl;
-    cout << "2. Mujer" << endl;
-    cout << "3. Mostrar todo" << endl;
+    cout << "a. Hombre" << endl;
+    cout << "b. Mujer" << endl;
+    cout << "c. Mostrar todo" << endl;
 
     cin >> Opciong;
 
     switch (Opciong)
     {
-    case 1:
+    case 'a':
         cout << "Zapatos disponibles para hombre" << endl;
 
         cout << "1. Zapato Deportivo: $80 (descuento del 20%, precio con descuento $" << d << ")." << endl;
@@ -47,7 +47,7 @@ int main()
         cout << "3. Zapato Premium: $250 (descuento del 20%, precio con descuento $" << p << ")." << endl;
         p = 200.00;
 
-    case 2:
+    case 'b':
         cout << "Zapatos disponibles para mujer" << endl;
         cout << "Zapato Casual: $" << c << "(descuento del 15%, precio con descuento)" << endl;
         c = 70.00;
@@ -57,7 +57,7 @@ int main()
         pr = 250.00;
         break;
 
-    case 3:
+    case 'c':
         cout << "Zapatos disponibles para hombre" << endl;
         cout << "Zapato Deportivo: $80 (descuento del 20%, precio con descuento $" << d << ")." << endl;
         d = 64.00;

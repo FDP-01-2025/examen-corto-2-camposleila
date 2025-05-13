@@ -46,64 +46,37 @@ int main()
         f = 96.00;
         cout << "3. Zapato Premium: $250 (descuento del 20%, precio con descuento $" << p << ")." << endl;
         p = 200.00;
-        switch (Opcionh)
-        {
-
-            cin >> Opcionh;
-        case 1:
-            cout << "Ha seleccionado: Zapato Deportivo" << endl;
-            cout << "Precio final con descuento: $" << d << endl;
-        }
-
-        break;
 
     case 2:
-        cout << "Ha seleccionado: Zapato Formal" << endl;
-        cout << "Precio final con descuento: $" << f << endl;
-
+        cout << "Zapatos disponibles para mujer" << endl;
+        cout << "Zapato Casual: $" << c << "(descuento del 15%, precio con descuento)" << endl;
+        c = 70.00;
+        cout << "Zapato Elegante: $" << e << "(descuento del 15%, precio con descuento)" << endl;
+        e = 100.00;
+        cout << "Zapato Premium: $" << pr << "(descuento del 15%, precio con descuento)" << endl;
+        pr = 250.00;
         break;
 
     case 3:
-        cout << "Ha seleccionado: Zapato Premium" << endl;
-        cout << "Precio final con descuento: $" << p << endl;
-
+        cout << "Zapatos disponibles para hombre" << endl;
+        cout << "Zapato Deportivo: $80 (descuento del 20%, precio con descuento $" << d << ")." << endl;
+        d = 64.00;
+        cout << "Zapato Formal: $120 (descuento del 20%, precio con descuento $" << f << ")." << endl;
+        f = 96.00;
+        cout << "Zapato Premium: $250 (descuento del 20%, precio con descuento $" << p << ")." << endl;
+        p = 200.00;
+        cout << "Zapatos disponibles para mujer" << endl;
+        cout << "Zapato Casual: $" << c << "(descuento del 15%, precio con descuento)" << endl;
+        c = 70.00;
+        cout << "Zapato Elegante: $" << e << "(descuento del 15%, precio con descuento)" << endl;
+        e = 100.00;
+        cout << "Zapato Premium: $" << pr << "(descuento del 15%, precio con descuento)" << endl;
+        pr = 250.00;
         break;
 
     default:
-        cout << "Seleccione una opcion valida" << endl;
+        cout << "Opcion no valida" << endl;
     }
-    break;
 
-case 2:
-    cout << "Zapatos disponibles para mujer" << endl;
-    cout << "Zapato Casual: $" << c << "(descuento del 15%, precio con descuento)" << endl;
-    c = 70.00;
-    cout << "Zapato Elegante: $" << e << "(descuento del 15%, precio con descuento)" << endl;
-    e = 100.00;
-    cout << "Zapato Premium: $" << pr << "(descuento del 15%, precio con descuento)" << endl;
-    pr = 250.00;
-    break;
-
-case 3:
-    cout << "Zapatos disponibles para hombre" << endl;
-    cout << "Zapato Deportivo: $80 (descuento del 20%, precio con descuento $" << d << ")." << endl;
-    d = 64.00;
-    cout << "Zapato Formal: $120 (descuento del 20%, precio con descuento $" << f << ")." << endl;
-    f = 96.00;
-    cout << "Zapato Premium: $250 (descuento del 20%, precio con descuento $" << p << ")." << endl;
-    p = 200.00;
-    cout << "Zapatos disponibles para mujer" << endl;
-    cout << "Zapato Casual: $" << c << "(descuento del 15%, precio con descuento)" << endl;
-    c = 70.00;
-    cout << "Zapato Elegante: $" << e << "(descuento del 15%, precio con descuento)" << endl;
-    e = 100.00;
-    cout << "Zapato Premium: $" << pr << "(descuento del 15%, precio con descuento)" << endl;
-    pr = 250.00;
-    break;
-
-default:
-    cout << "Opcion no valida" << endl;
-}
-
-return 0;
+    return 0;
 }
